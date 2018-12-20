@@ -37,7 +37,7 @@ public class Quicksort  {
 
 		int i = low, j = high;
 		/**
-		  * Establece pivot como el elemento central del array, desde el cual dividirá el array
+		  * Establece pivot como el elemento central del array, desde el cual dividirï¿½ el array
 		 */ 
 		int pivot = numbers[low + (high-low) / 2];
 		/**
@@ -45,7 +45,7 @@ public class Quicksort  {
 		 */
 		while (i <= j) {
 			/**
-			  * Si el elemento actual del lado izquierdo del array es mas pequeño que el pivote, pasamos al siguiente elemento del array izquierdo
+			  * Si el elemento actual del lado izquierdo del array es mas pequeï¿½o que el pivote, pasamos al siguiente elemento del array izquierdo
 			*/
 			while (numbers[i] < pivot) {
 				i++;
